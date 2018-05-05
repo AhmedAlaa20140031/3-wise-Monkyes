@@ -1,0 +1,86 @@
+/*************************** Start fonts faces ***************************/
+@font-face 
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+
+
+.testimonials
+{
+    width:inherit;
+    height: inherit;
+    background:url(../images/section3_bk.gif) center no-repeat ;
+    background-size: cover;
+}
+
+.testimonials h1
+{
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    font-family: Lato_black;
+}
+
+.testimonials .divider
+{
+    background-color: white;
+    height: 2px;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+
+.testimonials .photo
+{
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/emma_03.gif) ;
+    background-repeat: no-repeat
+    background-position: center;
+    background-size: 130px 130px;
+    position: relative;
+}
+
+.testimonials .box
+{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.box .p1
+{
+    color: #593ed8;
+    font-size: 28px;
+    font-family: Lato_Black;
+    top: 60px;
+}
+
+
+.box .p2
+{
+    color:black;
+    font-size: 14px;
+    font-family: Lato_Regular;
+}
+
+

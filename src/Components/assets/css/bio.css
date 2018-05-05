@@ -1,0 +1,119 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{width: 100%; height: 100%; margin: 0px;}
+
+
+/*************************** Start fonts faces ***************************/
+@font-face
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+
+.bio
+{
+    width:inherit;
+    height: inherit;
+    background:url(../images/section2_bk.gif) center no-repeat ;
+    background-size: cover;  
+    padding-bottom: 5%;
+}
+
+.container
+{
+    width: 50%;
+}
+
+.bio h1
+{
+    margin-top: 60px;
+    font-size: 40px;
+    color: black;
+    font-family: Lato_black;
+}
+
+.bio .divider
+{
+    background-color: #4a62dc;
+    height: 2px;
+    width: 100px;
+}
+
+.bio .box
+{
+    background: #FFF;
+    height: 350px;
+    width: 280px;
+    margin-top: 100px;
+    -webkit-box-shadow: 1px 1px 70px rgba(0,0,0,0.1);
+    float: right;
+}
+
+.bio .photo
+{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/photo.gif);
+    background-position: center;
+    position: relative;
+    right: 90px;
+}
+
+.bio .box .text
+{
+    width: 80%;
+}
+.bio .box h1
+{
+    font-size: 18px;
+    color: #544bd9;
+}
+
+.bio .box h2
+{
+    font-size: 10px;
+     text-align: left;
+    margin-top: 20px;
+}
+
+.bio .btn
+{
+    border-radius: 20px;
+    height: 35px;
+    background-color: #5b3ad7;
+    width: 100px;
+    margin-top: 40px;
+    position: relative;
+    color: white;
+    font-family: Lato_Regular;
+    font-size: 12px;
+}
+
+/* Media Query for setting up photo size on smaller versions */
+@media (max-width: 1200px)
+{
+   .bio .photo
+    {
+        width: 150px;
+        height: 150px;
+    }
+}

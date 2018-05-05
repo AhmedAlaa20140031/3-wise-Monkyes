@@ -1,0 +1,46 @@
+.mycard
+{
+    background-color: white;
+    float: right;
+    width: 80%;
+    height: 95%;
+    border-radius: 15px;
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+   padding-left: 20px;
+    padding-top: 30px;
+}
+.HeaderName
+{
+    color:#000 !important;
+    display:inline-block;
+    margin-bottom:5%;
+    margin-top:0px;
+    text-decoration: underline;
+}
+#file
+{
+   border-radius: 6px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: 15px; 
+    width: 100%;
+}
+
+#name,#header,#txttt,#url,#jobtitle
+{
+    border: 1px solid #612CE1;
+    border-radius: 6px;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btnn
+{
+    background-color: #612CE1;
+    color: white;
+    font-weight: bold;
+}

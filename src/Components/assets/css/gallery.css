@@ -1,0 +1,125 @@
+/*************************** Start fonts faces ***************************/
+@font-face
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+
+.gallery
+{
+    width:inherit;
+    height: inherit;
+    background:url(../images/section2_bk.gif) center no-repeat ;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+.gallery h1
+{
+    margin-top: 60px;
+    font-size: 40px;
+    color: black;
+    font-family: Lato_black;
+}
+
+.gallery .divider
+{
+    background-color: #4a62dc;
+    height: 2px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.gallery .container
+{
+    width: 65%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.gallery1
+{
+    background-color: skyblue;
+    border-radius: 3px;
+    height: 380px;
+    background-image: url(../images/gallery1_03.gif);
+    background-repeat: no-repeat;
+}
+
+.gallery2
+{
+    background-color: skyblue;
+    border-radius: 3px;
+    height: 189px;
+    width: 261px;
+    margin-bottom: 3px;
+    background-image: url(../images/gallery2_03.gif);
+    background-repeat: no-repeat;
+
+}
+
+
+.gallery .btn
+{
+    border-radius: 20px;
+    height: 35px;
+    background-color: #5b3ad7;
+    width: 100px;
+    margin-top: 20px;
+    position: relative;
+    color: white;
+    font-family: Lato_Regular;
+    font-size: 12px;
+}
+
+
+.gallery .top
+{
+    background-color: rgba(96,47,214,.6);
+    height: 189px;
+    width: 261px;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+
+.gallery .divider
+{
+    background-color: #4a62dc;
+    height: 2px;
+    width: 100px;
+}
+
+.gallery .divi
+{
+    background-color: white;
+    height: 2px;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.gallery .top .txt p
+{
+    color: white;
+    font-family: Lato_Black;
+    font-size: 14px;
+    margin-bottom: 0px;
+}

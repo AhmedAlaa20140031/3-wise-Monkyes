@@ -1,0 +1,150 @@
+/*************************** Start fonts faces ***************************/
+@font-face
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+
+.guests
+{
+    width:inherit;
+    height: inherit;
+    background:url(../images/section2_bk.gif) center no-repeat ;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+.guests h1
+{
+    margin-top: 60px;
+    font-size: 40px;
+    color: black;
+    font-family: Lato_black;
+}
+
+.guests .divider
+{
+    background-color: #4a62dc;
+    height: 2px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.guests .container
+{
+    width: 65%;
+    padding: 20px;
+}
+
+
+.guests .single_guest
+{
+    background-color: white;
+    border-radius: 3px;
+    height: 300px;
+    -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.single_guest img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.single_guest h1
+{
+    margin-top: 10px;
+    font-family: Lato_black;
+    font-size: 20px;
+}
+
+.single_guest h2
+{
+    margin-top: 10px;
+    color: #6c12d3;
+    font-family: Lato_regular;
+    font-size: 13px;
+}
+
+.single_guest .line
+{
+    height: 2px;
+    width: 30px;
+    background-color: #323e91;
+}
+
+.single_guest .social
+{
+    width: 90px;
+    margin-top: 20px;
+}
+.single_guest .social .fb
+{
+    float: left; width: 16px; height: 16px;
+    border-radius: 0px;
+    margin-right: 20px;
+    background-image: url(../images/fb_2.png);
+}
+
+.single_guest .social .twitter
+{
+    float: left; width: 16px; height: 16px;
+    border-radius: 0px;
+    margin-right: 20px;
+     background-image: url(../images/twitter_2.png);
+}
+
+.guests .btn
+{
+    border-radius: 20px;
+    height: 35px;
+    background-color: #5b3ad7;
+    width: 100px;
+    margin-top: 40px;
+    position: relative;
+    color: white;
+    font-family: Lato_Regular;
+    font-size: 12px;
+}
+
+
+.single_guest .social .send
+{
+    float: left; width: 16px; height: 16px;
+    border-radius: 0px;
+     background-image: url(../images/send_2.png);
+}
+
+.single_guest .social .fb:hover
+{
+     background-image: url(../images/fb_hover.png);
+}
+
+
+.single_guest .social .twitter:hover
+{
+     background-image: url(../images/twitter_hover.png);
+}
+
+.single_guest .social .send:hover
+{
+     background-image: url(../images/send_hover.png);
+}

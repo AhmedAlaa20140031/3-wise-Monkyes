@@ -1,0 +1,118 @@
+/*************************** Start fonts faces ***************************/
+@font-face 
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+
+.footer
+{
+    width:inherit;
+    height: 400px;
+    background:url(../images/section2_bk.gif) center no-repeat ;
+    background-size: cover;
+}
+
+
+.footer img
+{
+    margin-top: 20px;
+}
+
+.footer h1
+{
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+    font-family: Lato_black;
+}
+
+.footer .intext
+{
+    border-radius: 15px;
+    width: 200px;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family:Lato_Black;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+    
+}
+
+.footer .inbtn
+{
+    background-color: #6424d5;
+    border: none;
+    width: 80px;
+    border-radius: 15px;
+    font-family: Lato_Black;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    right: 80px;
+    height: 30px;
+    
+}
+
+.footer .social
+{
+    background-color: red;
+    width: 90px;
+    margin-top: 20px;
+}
+.footer .social .fb
+{
+    float: left; width: 16px; height: 16px;
+    border-radius: 0px;
+    margin-right: 20px;
+    background-image: url(../images/fb_2.png);
+}
+
+.footer .social .twitter
+{
+    float: left; width: 16px; height: 16px;
+    border-radius: 0px;
+    margin-right: 20px;
+     background-image: url(../images/twitter_2.png);
+}
+
+.footer .social .send
+{
+    float: left; width: 16px; height: 16px;
+    border-radius: 0px;
+     background-image: url(../images/send_2.png);
+}
+
+.footer .social .fb:hover
+{
+     background-image: url(../images/fb_hover.png);
+}
+
+
+.footer .social .twitter:hover
+{
+     background-image: url(../images/twitter_hover.png);
+}
+
+.footer .social .send:hover
+{
+     background-image: url(../images/send_hover.png);
+}
+

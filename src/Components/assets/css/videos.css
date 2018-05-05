@@ -1,0 +1,56 @@
+@font-face 
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+
+.videos
+{
+    width:inherit;
+    height: inherit;
+    background:url(../images/section3_bk.gif) center no-repeat ;
+    background-size: cover;
+    padding: 5%;
+}
+
+.videos h1
+{
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    font-family: Lato_black;
+}
+
+.videos .divider
+{
+    background-color: white;
+    height: 2px;
+    width: 100px;
+}
+
+.video img
+{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+

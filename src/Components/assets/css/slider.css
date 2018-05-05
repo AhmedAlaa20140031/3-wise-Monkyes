@@ -1,0 +1,232 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{width: 100%; height: 100%; margin: 0px;}
+
+
+/*************************** Start fonts faces ***************************/
+@font-face
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+
+.slider
+{
+    width:100%;
+    height: 100%;
+    padding-bottom: 22%;
+    background:url(../images/section1_bk.gif) center no-repeat ;
+    background-size: cover;
+}
+
+.slider img
+{
+    margin-top: 25px;
+    height: 60px;
+    width: 65px;
+    float: left;
+}
+
+.slider .divider
+{
+    background-color: white;
+    height: 1px;
+    width: 70px;
+}
+
+/*************************** Start Social Media Icons ***************************/
+.slider .social
+{
+    float: right;
+    position: relative;
+    top: 25px;
+}
+
+
+.slider .social .fb
+{
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/fb.png);
+    float: left;
+}
+
+.slider .social .fb:hover
+{
+    background-image: url(../images/fb_hover.png);
+}
+
+
+.slider .social .twitter
+{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/twitter.png);
+    float: left;
+    margin-left: 16px;
+}
+
+.slider .social .twitter:hover
+{
+    background-image: url(../images/twitter_hover.png);
+}
+
+.slider .social .send
+{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/send.png);
+    float: left;
+    margin-left: 15px;
+}
+
+.slider .social .send:hover
+{
+    background-image: url(../images/send_hover.png);
+}
+
+.slider .social .menu
+{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/menu.png);
+    float: left;
+    margin-left: 15px;
+}
+
+.slider .social .menu:hover
+{
+    background-image: url(../images/menu_hover.png);
+}
+
+/*************************** End Social Media Icons ***************************/
+
+
+/*************************** Start Slider Text ***************************/
+
+.slider .slider_text
+{
+   margin-top: 10%;
+}
+
+.slider h1
+{
+    font-size: 65px;
+    color: white;
+    font-family: Lato_black;
+    display: block;
+}
+
+.slider h2
+{
+    font-size: 18px;
+    color: white;
+    font-family: Lato_Regular;
+}
+
+.slider h3
+{
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    font-family: Lato_Light;
+}
+
+/*************************** End Slider Text ***************************/
+
+
+
+
+/* Media Query for setting up responsive font size for h1,h2,h3 */
+@media (max-width: 1300px)
+{
+    .slider h1
+    {
+        font-size: 50px;
+    }
+
+    .slider h2
+    {
+        font-size: 16px;
+    }
+
+    .slider h3
+    {
+        font-size: 14px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .slider h1
+    {
+        font-size: 40px;
+    }
+
+     .slider h2
+    {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .slider h1
+    {
+        font-size: 30px;
+    }
+
+     .slider h2
+    {
+        font-size: 14px;
+    }
+
+    .slider h3
+    {
+        font-size: 14px;
+        width: 230px;
+    }
+}
+
+@media (max-width: 576px)
+{
+    .slider h1
+    {
+        font-size: 20px;
+    }
+
+    .slider h2
+    {
+        font-size: 12px;
+    }
+
+    .slider h3
+    {
+        font-size: 12px;
+         width: 230px;
+    }
+
+    .slider .slider_text
+    {
+        margin-top: 100px;
+    }
+}

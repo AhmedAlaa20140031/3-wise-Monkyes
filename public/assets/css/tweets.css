@@ -1,0 +1,68 @@
+/*************************** Start fonts faces ***************************/
+@font-face
+{
+    font-family: 'Lato_black';
+    src: url('../fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Lato_Light';
+    font-family: 'Lato_Light';
+    src: url('../fonts/Lato-Light.woff') format('woff');
+}
+
+/*************************** End fonts faces ***************************/
+.marginclass
+{
+  margin-top: 5%;
+}
+.tweets
+{
+    width:inherit;
+    height: inherit;
+    background:url(../images/section3_bk.gif) center no-repeat ;
+    background-size: cover;
+}
+
+.tweets h1
+{
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    font-family: Lato_black;
+}
+
+.tweets .divider
+{
+    background-color: white;
+    height: 2px;
+    width: 100px;
+}
+
+.tweets .container
+{
+    width: 65%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.tweets .single_tweet
+{
+    background-color: skyblue;
+    border-radius: 3px;
+    height: 200px;
+}
+
+.video_title h1
+{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
