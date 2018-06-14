@@ -27,7 +27,7 @@ class Testimonials extends Component {
          <div class="box">
              <div class="content">
              <p class="p1">Emma Stone</p>
-             <p class="p2">Jessy El Murr is a multimedia journalist, speaker and moderator with a<br/>special interest in social media and Arab youth.</p>
+             <p class="p2">{this.props.Data}</p>
                  </div>
               </div>
           </center>

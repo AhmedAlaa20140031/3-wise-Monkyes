@@ -36,12 +36,7 @@ class Bio extends Component {
                  <div class="box">
                      <h1>Jessy El Murr</h1>
                      <div class="text">
-                     <h2>Is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.
-                      <br/><br/>
-                      El Murr currently produces and presents Sky News Arabia’s daily segment Taghreedat Al Sabah  which highlights portraits of inspirational young Arabs who have succeeded in making an impact in our digital world.
-                      <br/><br/>
-
-                      With over 15 years of media experience, El Murr is a Lebanese-American journalist who has reported for several international TV networks including BBC and Al Jazeera before moving to UAE in 2012. </h2>
+                     <h2>{this.props.Data}</h2>
                          </div>
 
                      <div class="btn">View more</div>

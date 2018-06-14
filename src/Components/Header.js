@@ -54,7 +54,7 @@ class Header extends Component {
               <div class="row">
                   <div class="col-lg-2 col-xl-2 col-md-2 col-sm-2 col-2"></div>
                   <div class="col-lg-3 col-xl-3 col-md-3 col-sm-3 col-3">
-                     <h3>Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth</h3>
+                     <h3>{this.props.Data}</h3>
                   </div>
                   <div class="col-lg-7 col-xl-7 col-md-7 col-sm-7 col-7"></div>
               </div>
