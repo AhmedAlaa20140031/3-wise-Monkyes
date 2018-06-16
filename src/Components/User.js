@@ -22,7 +22,7 @@ class User extends Component {
     }
   }
  componentDidMount() {
-    axios.get('http://192.168.1.6:8000/')
+    axios.get('http://localhost:8000/')
       .then(res => {
         const Data = res.data;
         this.setState({ Data });
